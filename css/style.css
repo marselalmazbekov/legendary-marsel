@@ -1,0 +1,515 @@
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+.header {
+  background-color: #000;
+}
+.logo {
+  color: #f2c938;
+  font-family: "Trade Winds", sans-serif;
+  text-decoration: none;
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 0 25px;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+.nav-list a:hover {
+  color: #f2c938;
+}
+.phone {
+  display: flex;
+}
+
+.phone span {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.book-now {
+  background-color: #f2c938;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 12px 37px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3 s;
+}
+.book-now:hover {
+  background-color: #000;
+  color: #f2c938;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.hero {
+  background: url("../img/car.png") no-repeat center;
+  background-size: cover;
+  min-height: calc(100vh - 94px);
+}
+.hero-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 85px;
+  font-weight: 700;
+  color: #fff;
+  max-width: 680px;
+}
+.hero-description {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  max-width: 680px;
+  margin: 20px 0 30px;
+}
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.header {
+  background-color: #000;
+}
+
+.logo {
+  color: #f2c938;
+  font-family: "Trade Winds", sans-serif;
+  text-decoration: none;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 0 25px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.nav-list a:hover {
+  color: #f2c938;
+}
+
+.phone {
+  display: flex;
+  gap: 10px;
+}
+
+.phone span {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.book-now {
+  background-color: #f2c938;
+  border: 2px solid #f2c938;
+  outline: none;
+  border-radius: 5px;
+  padding: 12px 37px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-now:hover {
+  background-color: #000;
+  color: #f2c938;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.hero {
+  padding-top: 10vh;
+  background: url("../img/car.png") no-repeat center;
+  background-size: cover;
+  min-height: calc(100vh - 94px);
+}
+
+.hero-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 85px;
+  font-weight: 700;
+  color: #fff;
+  max-width: 680px;
+}
+
+.hero-description {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  max-width: 680px;
+  margin: 20px 0 30px;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.hero-customers {
+  background: #ffffff59;
+  border-radius: 8px;
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-users img {
+  margin-right: -20px;
+}
+
+.hero-rating {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-rating span {
+  margin: 0 0 5px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.09px;
+}
+
+.hero-rating h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34.47px;
+}
+
+.hero .phone {
+  flex: 1;
+}
+.choose {
+  padding: 120px 0;
+  background: #222224;
+}
+.choose-row {
+  display: flex;
+  gap: 40px;
+}
+.choose-column {
+  text-align: center;
+  color: #fff;
+}
+.choose-column h3 {
+  margin: 30px 0 20px;
+  font-family: ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.choose-column p {
+  font-family: ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.choose-content {
+  color: #fff;
+  border-left: 2px solid #3d3d40;
+  padding-left: 35px;
+}
+.choose-content h2 {
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 62px;
+  margin-bottom: 20px;
+}
+.choose-content p {
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.window-tint {
+  padding: 122px 0 178px;
+  background: #28282a;
+}
+.window-tint-title {
+  font-family: Ubuntu, sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59px;
+  color: #ff0000;
+}
+.window-tint-desc {
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ff0000;
+  margin: 20px 0 50px;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.coating {
+  background-color: #222224;
+  padding: 150px;
+}
+.coating-title {
+  font-family: Ubutu;
+  font-size: 46px;
+  font-weight: 700;
+  color: #ffff;
+}
+.coating-description {
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #fff;
+  margin: 25px o 45px;
+}
+.coating-image {
+  width: 100%;
+}
+
+.coating-features-item h4 {
+  margin: 40px 0;
+  font-family: Ubuntu;
+  font-weight: 700;
+  color: #fff;
+}
+.coating-features-item {
+  background-color: #343436;
+  padding: 32px;
+  box-sizing: border-box;
+}
+.coating-features-item li {
+  padding-left: 28px;
+  position: relative;
+  color: #969696;
+  margin-bottom: 35px;
+  font-family: Ubuntu;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.coating-features-item li::before {
+  content: "";
+  position: absolute;
+  left: -3px;
+  top: 50%;
+  width: 21px;
+  height: 21px;
+  background: url("../img/tickcircle.svg") no-repeat center;
+  transform: translateY(-50%);
+}
+
+.coating-features-row,
+.coating-row {
+  display: flex;
+}
+.coating-row {
+  gap: 135px;
+}
+
+.coating-features-row {
+  gap: 25px;
+}
+.coating-features-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.coating-features-item ul {
+  flex: 1;
+}
+.coating-features-item button {
+  font-family: Ubuntu, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #fff;
+  background-color: #222224;
+  padding: 11px 47px;
+  border: none;
+  outline: \none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.quote {
+  padding: 100px 0;
+  background-color: #28282a;
+}
+
+.quote-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quote-title {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 46px;
+  color: #fff;
+}
+.quote-description {
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+  margin: 20px 0 48px;
+}
+.quote-form input {
+  padding: 12px 20px;
+  background-color: transparent;
+  border: 2px solid #e0e0e0;
+  outline: none;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+.quote-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 100;
+}
+.quote-map {
+  width: 100%;
+  height: 700px;
+}
+
+.quote-contacts-list span {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+
+}
+.quote-contacts {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+
+}
+.quote-contacts-list {
+    width: 50%;
+}
+.quote-social a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: #1b1b1b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.quote-social {
+    display: flex;
+    gap: 15px;
+}
+.quote-social a:hover {
+    background-color: #f2c938;
+}
+
+
+.footer {
+    padding: 100px 0;
+    background-color: #28282a;
+}
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-3 {
+    width: 25%;
+}
+.footer-description {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.footer .quote-contacts-list {
+    width: 100%;
+}
+.footer-title {
+    font-family: Ubuntu, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footer-list li {
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #fff;
+}
